@@ -3,18 +3,233 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI Experiment Lab</title>
+  <title>AI Experiment Lab | Build, Learn, Innovate</title>
+  <meta name="description" content="AI Experiment Lab explores artificial intelligence, Python, automation, and open-source software projects.">
   <style>
-    body { font-family: Arial, sans-serif; max-width: 800px; margin: 60px auto; padding: 20px; line-height: 1.7; color: #222; }
-    h1 { color: #6b46c1; }
-    section { margin-top: 28px; }
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0b1020;
+      color: #edf2ff;
+      line-height: 1.7;
+    }
+
+    header {
+      padding: 22px 8%;
+      border-bottom: 1px solid #28314b;
+      background: #10172b;
+    }
+
+    .brand {
+      font-size: 22px;
+      font-weight: bold;
+      color: #8da5ff;
+    }
+
+    .hero {
+      padding: 85px 8% 70px;
+      text-align: center;
+      background: radial-gradient(ellipse at top, #25376b, #0b1020 70%);
+    }
+
+    .tag {
+      display: inline-block;
+      padding: 6px 14px;
+      border: 1px solid #586fbd;
+      border-radius: 30px;
+      color: #b7c6ff;
+      font-size: 13px;
+    }
+
+    h1 {
+      font-size: clamp(38px, 7vw, 65px);
+      line-height: 1.15;
+      margin: 22px 0;
+    }
+
+    .highlight { color: #91a8ff; }
+
+    .hero p {
+      max-width: 680px;
+      margin: 0 auto 28px;
+      color: #c0c9dd;
+      font-size: 18px;
+    }
+
+    .button {
+      display: inline-block;
+      background: #718cff;
+      color: #0b1020;
+      padding: 12px 23px;
+      border-radius: 9px;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 6px;
+    }
+
+    .button.secondary {
+      background: transparent;
+      border: 1px solid #596785;
+      color: #edf2ff;
+    }
+
+    main {
+      max-width: 1100px;
+      margin: auto;
+      padding: 55px 22px;
+    }
+
+    h2 {
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
+
+    .intro {
+      color: #b9c4da;
+      margin-bottom: 28px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+    }
+
+    .card {
+      padding: 23px;
+      background: #141d33;
+      border: 1px solid #293652;
+      border-radius: 14px;
+    }
+
+    .card .icon { font-size: 30px; }
+
+    .card h3 { margin: 12px 0 8px; }
+
+    .card p {
+      color: #bac5da;
+      font-size: 15px;
+    }
+
+    .status {
+      margin-top: 35px;
+      padding: 25px;
+      background: #121b30;
+      border-left: 4px solid #829aff;
+      border-radius: 8px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 28px 15px;
+      border-top: 1px solid #28314b;
+      color: #aebbd2;
+      font-size: 14px;
+    }
+
+    footer a { color: #a6b8ff; }
+
+    @media (max-width: 600px) {
+      .hero { padding: 60px 6%; }
+      main { padding: 38px 18px; }
+    }
   </style>
 </head>
 <body>
-  <h1>AI Experiment Lab</h1>
-  <p>Welcome to AI Experiment Lab, an open-source project for exploring and building practical software tools.</p>
-  <section><h2>What We Explore</h2><ul><li>Artificial intelligence and language models</li><li>Python programming and automation</li><li>Web development and useful utilities</li><li>Data analysis and developer tools</li><li>AI API integrations</li></ul></section>
-  <section><h2>Project Status</h2><p>This project is in its early development stage. New experiments and tools will be added as development progresses.</p></section>
-  <p><a href="https://github.com/">Explore GitHub</a></p>
+
+  <header>
+    <div class="brand">⚡ AI Experiment Lab</div>
+  </header>
+
+  <section class="hero">
+    <span class="tag">OPEN SOURCE · ALWAYS LEARNING</span>
+    <h1>Explore AI.<br><span class="highlight">Build What's Next.</span></h1>
+    <p>
+      A growing independent project exploring artificial intelligence,
+      Python, automation, and practical software tools.
+      Learn by building, experiment with ideas, and share useful work.
+    </p>
+    <a class="button" href="https://github.com/Meenafxtrader/Ai-experiment-lab">
+      Explore on GitHub
+    </a>
+    <a class="button secondary" href="#projects">Discover the Lab</a>
+  </section>
+
+  <main>
+    <section>
+      <h2>What We Explore</h2>
+      <p class="intro">
+        Practical technology experiments designed to turn ideas into useful tools.
+      </p>
+
+      <div class="grid">
+        <article class="card">
+          <div class="icon">🤖</div>
+          <h3>Artificial Intelligence</h3>
+          <p>Explore language models, AI assistants, and ways to integrate AI into useful applications.</p>
+        </article>
+
+        <article class="card">
+          <div class="icon">🐍</div>
+          <h3>Python & Automation</h3>
+          <p>Build scripts and workflows that simplify repetitive tasks and solve everyday problems.</p>
+        </article>
+
+        <article class="card">
+          <div class="icon">🌐</div>
+          <h3>Web Development</h3>
+          <p>Create websites, interactive tools, and simple applications using modern web technologies.</p>
+        </article>
+
+        <article class="card">
+          <div class="icon">📊</div>
+          <h3>Data & Experiments</h3>
+          <p>Learn from data, test ideas, and develop practical tools through careful experimentation.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" style="margin-top:55px">
+      <h2>Projects & Progress</h2>
+      <p class="intro">
+        This lab is in its early stages. New experiments and project
+        demonstrations will be published as they are developed.
+      </p>
+
+      <div class="grid">
+        <article class="card">
+          <h3>AI Learning Lab</h3>
+          <p>Exploring AI platforms, models, APIs, and developer workflows.</p>
+          <span class="tag">Exploring</span>
+        </article>
+
+        <article class="card">
+          <h3>Open-Source Tools</h3>
+          <p>Building small, accessible software tools and sharing their source code.</p>
+          <span class="tag">In Progress</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="status">
+      <h2>Our Mission</h2>
+      <p>
+        Learn openly, experiment responsibly, and make technology
+        easier to understand and use. This project is independent
+        and is not affiliated with any AI company.
+      </p>
+      <a class="button" href="https://github.com/Meenafxtrader/Ai-experiment-lab">
+        View Source Code
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 AI Experiment Lab · Built with curiosity and open-source tools.</p>
+    <p><a href="https://github.com/Meenafxtrader/Ai-experiment-lab">GitHub Repository</a></p>
+  </footer>
+
 </body>
 </html>
